@@ -37,7 +37,20 @@ const generateResponse = (incomingChatLi) => {
     messageElement.textContent = data.choices[0].message.content;
   }).catch((error) => {
     messageElement.classList.add("error");
-    messageElement.textContent = "Oops! Something went wrong. Please try again.";
+    messageElement.textContent = "My Dearest, My Queen, Mi Yaa Bebe, Mi Sheila Bebe and My everything
+
+Today is such a beautiful day, simply because it marks the day you came into this world. You were born to be extraordinary, to light up lives, and I thank the universe every day that you came into mine. My life has felt brighter, fuller, and just endlessly happier since you walked into it. And today, on your birthday, I want nothing more than to remind you of how deeply and completely I cherish you.
+
+You are my everything – my sunshine on cloudy days, my laughter in the quiet moments, and my source of strength when I need it most. Being by your side, sharing moments both big and small, has shown me how incredible love can be. You inspire me to be better, to laugh more, and to embrace life with open arms. In you, I see everything I could ever wish for – kindness, courage, and a beauty that starts from within and shines for all to see.
+
+Thank you, love, for all that you are. Thank you for being my confidant, my cheerleader, and my reason to smile. I feel so blessed to know you, to hold you, and to call you mine. You've shown me what it means to love and be loved, and there’s no way I could ever put into words how grateful I am for you. But today, I want you to know: you are cherished beyond words.
+
+So, on this special day, I hope you feel all the love and joy you bring into my life. May your heart overflow with happiness, just as you’ve filled mine. Here’s to many more birthdays together, to endless laughter, to new dreams, and to a lifetime of love.
+
+Happy Birthday, my love. You are, and always will be, my heart's greatest joy.
+
+With all my love,
+Boadu Prince";
 }).finally(() => chatbox.scrollTo(0, chatbox.scrollHeight));
 }
 
